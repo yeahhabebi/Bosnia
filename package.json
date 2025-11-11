@@ -1,20 +1,17 @@
 {
-  "name": "bihembassyk-clone",
+  "name": "bosnia-portfolio",
   "version": "1.0.0",
-  "description": "Photography portfolio website clone",
+  "description": "Photography Portfolio",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l $PORT",
-    "build": "echo 'No build process needed for static site' && exit 0",
-    "dev": "npx serve -s . -p 3000"
-  },
-  "keywords": ["photography", "portfolio", "website"],
-  "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-    "serve": "^14.2.0"
+    "start": "npx serve . -l $PORT",
+    "build": "echo 'Build complete'",
+    "dev": "npx serve . -p 3000"
   },
   "dependencies": {
     "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
