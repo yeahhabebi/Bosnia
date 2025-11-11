@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bosnia
+    env: node
+    buildCommand: npm install
+    startCommand: npx serve . -l $PORT
+    staticPublishPath: .
