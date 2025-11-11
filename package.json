@@ -4,14 +4,17 @@
   "description": "Photography portfolio website clone",
   "main": "index.html",
   "scripts": {
-    "start": "serve -s .",
-    "build": "echo 'No build process needed for static site'",
-    "dev": "serve -s . -p 3000"
+    "start": "npx serve -s . -l $PORT",
+    "build": "echo 'No build process needed for static site' && exit 0",
+    "dev": "npx serve -s . -p 3000"
   },
   "keywords": ["photography", "portfolio", "website"],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
     "serve": "^14.2.0"
   }
 }
